@@ -1,3 +1,5 @@
+<script>
+ 
 function AjaxSendForm(url, placeholder, form, append) {
 var data = $(form).serialize();
 append = (append === undefined ? false : true); // whatever, it will evaluate to true or false only
@@ -27,3 +29,5 @@ $.ajax({
     dataType: 'html'
 });
 }
+    
+</script>
